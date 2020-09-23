@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online saloon system</title>
+	<link rel="stylesheet" href="styles.css"/>
+	
+</head>
+<body>
+	<div class="hero">
+		<div class= "Con_box">
+			<div class="butn_box">
+				<div id="btn"></div>
+				<button type="button" class= "toggle_button" onclick="Signin()">Sign in</button>
+				<button type="button" class="toggle_button" onclick="Login()">Log in</button>
+			</div>
+				<form id= "Signin" class="signin_form">
+					<input type="text" placeholder="E-mail" class="input" required><br />
+					<input type="text" placeholder="Username" class="input" required><br />
+					<input type="text" placeholder="Password" class="input" required><br />
+					<input type="text" placeholder="Re-type password" class="input" required><br />
+					<button class="btn">Sign In</button>
+				</form>
+				<form id="Login" class="signin_form">
+					<input type="text" placeholder="Username/E-mail" class="input" required><br />
+					<input type="texr" placeholder="Password" class="input" required><br />
+					<button class="btn">Log In</button>
+				</form>	
+		</div>
+	</div>	
+	<script>
+		var x = document.getElementById("Login");
+		var y = document.getElementById("Signin");
+		var z = document.getElementById("btn");
+
+		function Signin(){
+			x.style.left = "-400px";
+			y.style.left = "40px";
+			z.style.left = "0px";
+		}
+		function Login(){
+			x.style.left = "50px";
+			y.style.left = "550px";
+			z.style.left = "120px";	
+		}
+
+	</script>
+	
+</body>
+</html>
