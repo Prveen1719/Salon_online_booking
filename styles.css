@@ -7,7 +7,6 @@
 body{
 	background: ash;
 	font-family: arial;
-	
 }
 
 .hero{
@@ -21,11 +20,11 @@ body{
 
 .Con_box{
 	width: 380px;
-	height: 480px;
+	height: 500px;
 	position: relative;
-	margin: 6% auto;
-	background: white;
-	padding: 5px;
+	margin: 5% auto;
+	background:linear-gradient(to right, #00f7ff, #e5e5e2);
+	padding: 4px;
 	overflow: hidden;
 }
 
@@ -46,6 +45,7 @@ body{
 	border: 0;
 	outline: 0;
 	position: relative;
+	text-align: center;
 }
 
 #btn{
@@ -78,6 +78,7 @@ body{
 	border-bottom: 1.5px solid rgb(12, 104, 180);
 	background: transparent;
 	outline: none;
+	line-height: 1.8;
 }
 
 #Signin{
@@ -90,7 +91,7 @@ body{
 
 .btn{
 	width: 85%;
-	padding: 10px 30px;
+	padding: 12px 40px;
 	cursor: pointer;
 	display: block;
 	margin: auto;
